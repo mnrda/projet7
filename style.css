@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&display=swap');
+
+
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize ;
+
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 70px;
+    background: #fff;
+}
+
+.session{
+    width: 100%;
+    max-width: 500px;
+    padding:0  15px;
+}
+
+
+
+.swiper-wrapper{
+    width: 0 100%;
+    
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+
+.myslide {
+    position: relative;
+    width: 100%;
+}
+
+  .slide {
+    border-radius: 1px;
+    background: #fff;
+    width: 98%;
+    position: relative;
+    text-align: left;
+    margin: 5px !important;
+    box-shadow: rgba(0, 0, 0, 0.34) 0px 4px 10px;
+    
+    padding-left: 60px ;
+    padding-right: 60px ;
+    padding-top: 20px ;
+    padding-bottom: 20px ;
+
+}
+ .slide .user{
+    display: flex;
+    align-items: center;
+}
+
+  .slide img{
+    height: 70px !important;
+    width: 70px !important;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.slide .user-info h3{
+    color: black;
+    font-size: 14px;
+}
+
+ .slide .user-info .stars {
+    color: black;
+    font-size: 17px;
+    letter-spacing: -0.1em;
+}
+
+ .slide .text {
+    color: black;
+    font-size: 14px;
+    padding-top: 15px ;
+    text-align: left;
+}
+
+/***************/
+.btn{
+    margin-top: 0.5rem;
+    display: inline-block;
+    font-size: 1rem;
+    color: #fff;
+    background:#29C392;
+    border-radius: .5rem;
+    cursor: pointer;
+    padding: .2rem 1rem;
+    text-decoration: none;
+    
+}
+
+.btn:hover{
+    background: #29C392;
+    letter-spacing: .1rem;
+}
+ /***************/
+
+ .swiper-button-next::after,
+ .swiper-button-prev::after{
+    font-size: 20px !important;
+    color: #fff;
+ }
+
+ 
+
+ .swiper-button-next,
+ .swiper-button-prev{
+    height: 50px !important;
+    width: 50px !important; 
+    text-align: center;
+    background: #8D8D8D;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 8px !important;
+    
+    box-shadow:  0 .1rem 0.5rem rgba(0, 0, 0, 0.504);
+
+}
+
+
+.swiper-button-next{
+    right: 10px !important;
+    top: 60px !important;
+    
+}
+
+
+.swiper-button-prev{
+    left: 10px !important;
+    top: 60px !important;
+    
+}
